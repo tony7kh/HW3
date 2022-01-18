@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    color: black;
+    font-size: 14px;
+    line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.content-box{
+    box-sizing: content-box;
+    height: 200px;
+    width: 300px;
+    background: turquoise;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border: solid 3px violet;
+}
+.content-box p{
+    font-size: 20px;
+    background: yellowgreen;
+    text-align: center;
+}
+.border-box{
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+    background: orange;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border: solid 3px blue;
+}
+.border-box p{
+    font-size: 20px;
+    background: yellow;
+    text-align: center;
+}
+
+.example{
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px;
+    margin-bottom: 30px;
+    border: dashed 2px red;
+    background: green;
+}
+.info{
+    width: 70%;
+    padding: 20px 30px;
+}
+.info p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.first-image{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+.second-image{
+    width: 20%;
+    float: right;
+    margin: 20px auto 20px 20px;
+}
